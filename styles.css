@@ -315,12 +315,11 @@ body{
 }
 
 .boton-parte2{
-    /* Rectangle 84 */
 
 position: absolute;
 left: 56.78%;
 right: 22.3%;
-top: 185%;
+top: 183%;
 bottom: 69.16%;
 height: 6%;
 width: 15%;
@@ -380,10 +379,10 @@ transform: scale(1.2);
 
 .fechasBike2{
     display: flex;
-    position: absolute;
+    position: relative;
     left: -0.5%;
     right: 80.06%;
-    top: 80.42%;
+    top: -10.42%;
     width: 18%;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -393,18 +392,68 @@ transform: scale(1.2);
 transform: scale(1.2);
 }
 
-.parte3{
+.parte4{
     position: relative;
     display: flex;
-    z-index: -1;
-    margin-top: 120%;
+    z-index: -2;
+    margin-top: 125%;
 }
 
-.fondo-parte3{
+.fondo-parte4{
     position: relative;
     display: flex;
-    margin-top: -10%;
+    margin-top: -32%;
     margin-left: 5%;
-    width: 30%;
-    z-index: -1;
+    width: 35%;
+    z-index: -2;
+}
+
+.texto-parte4{
+    position: relative;
+    display: flex;
+    z-index: -2;
+    width: 25%;
+    margin-top: -25%;
+    margin-left: -32%;
+}
+
+.imagen-parte4{
+    position: relative;
+    display: flex;
+    width: 65%;
+    margin-top: -8.6%;
+    margin-left: 1.9%;
+    z-index: -2;
+}
+
+.botone-part4{
+    margin-left: 3%;
+}
+
+.boton-compra{
+    position: relative;
+    display: block;
+    margin-left: 6%;
+    width: 11%;
+    margin-top: -5%;
+    cursor: pointer; /* Mueve esta propiedad aquí */
+    transition: transform 0.3s ease;
+}
+
+.boton-compra:hover {
+    transform: scale(1.2);
+}
+
+.boton-renta {
+    position: relative;
+    display: block;
+    margin-left: 18%;
+    width: 11%;
+    margin-top: -15%;
+    cursor: pointer; /* Mueve esta propiedad aquí */
+    transition: transform 0.3s ease;
+}
+
+.boton-renta:hover {
+    transform: scale(1.2);
 }

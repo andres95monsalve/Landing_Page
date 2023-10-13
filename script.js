@@ -17,13 +17,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-    // Obtén el botón y la imagen por sus IDs
-var boton = document.getElementById('color-bike1-1');
-var imagen = document.getElementById('cambio-color');
-
-// Agrega un evento de clic al botón
-boton.addEventListener('click', function() {
-    // Cambia la ruta de la imagen
-    imagen.src = 'src/img/bike_principal-1.png'; // Reemplaza 'nueva_imagen.jpg' con la ruta de tu nueva imagen
-    imagen.alt = 'Nueva Imagen'; // Cambia el texto alternativo si lo deseas
-});
