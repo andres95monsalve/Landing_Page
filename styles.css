@@ -27,6 +27,15 @@ body{
     color: black;
 }
 
+.texto-menu-top1{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.texto-menu-top1:hover {
+    transform: scale(1.2);
+}
+
 .menu-boton {
     background: linear-gradient(90deg, #018297 0%, #23BA8D 50%, #1ABFAF 100%);
     color: #fff;
