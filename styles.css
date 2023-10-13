@@ -291,3 +291,62 @@ body{
     top: 10%;
     transform: translate(-50%);
 }
+
+.puntos_parte2{
+    position: absolute;
+    z-index: 2;
+    margin-left: 50%;
+    display: flex;
+    margin-top: 33%;
+    width: 20%;
+}
+
+.texto_parte2{
+    position: absolute;
+    z-index: 2;
+    margin-left: 79%;
+    display: flex;
+    margin-top: 23%;
+    width: 10%;
+}
+
+.posicion-parte2{
+    margin-top: 15%;
+}
+
+.boton-parte2{
+    /* Rectangle 84 */
+
+position: absolute;
+left: 56.78%;
+right: 22.3%;
+top: 185%;
+bottom: 69.16%;
+height: 6%;
+width: 15%;
+color: #fff;
+font-weight: bold;
+
+background: linear-gradient(90deg, #018297 17.58%, #23BA8D 75.45%, #1ABFAF 106.87%);
+box-shadow: 4px -1px 15px -19px rgba(0, 0, 0, 0.1);
+border-radius: 40px;
+border-color: transparent;
+cursor: pointer;
+transition: transform 0.3s ease;
+}
+
+.boton-parte2:hover {
+transform: scale(1.2);
+}
+
+.texto-parte3{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.texto-parte3-1{
+    position: absolute;
+    width: 620px;
+}
