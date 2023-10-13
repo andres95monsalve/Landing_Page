@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    overflow-x: hidden
 }
 
 .menu-top {
@@ -216,4 +217,21 @@ body{
     margin-top: 19%;
     margin-left: 65%;
     width: 25%;
+}
+
+.puntos1{
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 4%;
+    width: -1%;
+}
+
+.puntos2{
+    position: absolute;
+    margin-left: 62%;
+    width: -1%;
+}
+
+.posicion-puntos{
+    margin-top: -7%;
 }
