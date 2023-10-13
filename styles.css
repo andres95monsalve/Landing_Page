@@ -113,7 +113,7 @@ body{
 .titulo{
     
     margin-top: 5%;
-    margin-left: 2%;
+    margin-left: -2%;
 }
 
 .texto-1{
@@ -164,8 +164,8 @@ body{
 
 .texto-principal{
     display: block;
-    margin-left: -34.5%; 
-    margin-top: 20%;
+    margin-left: 20%; 
+    margin-top: 5%;
     width: 480px; /* Ancho del cuadro de texto en píxeles u otras unidades */
     height: 100px; /* Altura del cuadro de texto en píxeles u otras unidades */
     font-size: 20px;
@@ -224,7 +224,7 @@ body{
 .puntos1{
     position: absolute;
     margin-left: 58%;
-    margin-top: 4%;
+    margin-top: 12%;
     width: -1%;
 }
 
@@ -235,14 +235,15 @@ body{
 }
 
 .posicion-puntos{
-    display: block;
-    margin-top: -7%;
+    display: flex;
+    margin-top: 20%;
+    margin-left: -100%;
 }
 
 .siguenos{
     position: relative;
     display: block;
-    margin-left: 75%;
+    margin-left: 60%;
     margin-top: 6%;
 }
 
@@ -255,7 +256,6 @@ body{
     
     position: relative;
     margin: 3%;
-    margin-left: 4%;
     margin-top: -2%;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -264,7 +264,7 @@ body{
 .cuadro-botones-follow{
     position: relative;
     display: flex;
-    margin-left: 40%;
+    margin-left: 120%;
 }
 
 .siguenos2:hover {
@@ -277,15 +277,17 @@ body{
 }
 
 .img-parte1{
-    position: relative;
-    width: 54%;
+    position: absolute;
+    width: 45%;
     z-index: 1;
 }
 
 .texto-parte1{
-    position: relative;
-    margin-top: -10%;
-    margin-left: 55%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 75%;
     width: 40%;
-    z-index: -1;
+    z-index: 2;
+    top: 10%;
+    transform: translate(-50%);
 }
