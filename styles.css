@@ -341,7 +341,7 @@ transform: scale(1.2);
 
 .texto-parte3{
     position: absolute;
-    margin-top: 45%;
+    margin-top: 50%;
     margin-left: 5%;
     display: flex;
 }
@@ -349,4 +349,62 @@ transform: scale(1.2);
 .texto-parte3-1{
     position: absolute;
     width: 620px;
+}
+
+.bike2-fondo{
+    position: relative;
+    width: 40%;
+    z-index: -1;
+    margin-left: 57.2%;
+    margin-top: -50%;
+}
+
+.bike2{
+    position: relative;
+    width: 46.7%;
+    margin-left: 53%;
+}
+
+.bike2-class{
+    margin-top: 7%;
+}
+
+.vectoresBike{
+    position: relative;
+    display: flex;
+    width: 15%;
+    margin-left: 30%;
+    margin-top: -10%;
+    z-index: -1;
+}
+
+.fechasBike2{
+    display: flex;
+    position: absolute;
+    left: -0.5%;
+    right: 80.06%;
+    top: 80.42%;
+    width: 18%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.fechasBike2:hover {
+transform: scale(1.2);
+}
+
+.parte3{
+    position: relative;
+    display: flex;
+    z-index: -1;
+    margin-top: 120%;
+}
+
+.fondo-parte3{
+    position: relative;
+    display: flex;
+    margin-top: -10%;
+    margin-left: 5%;
+    width: 30%;
+    z-index: -1;
 }
