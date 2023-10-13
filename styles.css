@@ -99,6 +99,7 @@ body{
 
 .titulo{
     margin-top: 5%;
+    margin-left: -6%;
 }
 
 .texto-1{
@@ -146,7 +147,7 @@ body{
 
 .texto-principal{
     display: flex;
-    margin-left: -35%;
+    margin-left: -38%;
     margin-top: 20%;
     width: 480px; /* Ancho del cuadro de texto en píxeles u otras unidades */
     height: 100px; /* Altura del cuadro de texto en píxeles u otras unidades */
