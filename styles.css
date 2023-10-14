@@ -293,20 +293,20 @@ body{
 }
 
 .puntos_parte2{
-    position: absolute;
+    position: relative;
     z-index: 2;
     margin-left: 50%;
     display: flex;
-    margin-top: 33%;
+    margin-top: -2%;
     width: 20%;
 }
 
 .texto_parte2{
-    position: absolute;
-    z-index: 2;
+    position: relative;
+    z-index: -2;
     margin-left: 79%;
     display: flex;
-    margin-top: 23%;
+    margin-top: -6%;
     width: 10%;
 }
 
@@ -329,6 +329,10 @@ transition: transform 0.3s ease;
 
 .boton-parte2:hover {
 transform: scale(1.2);
+}
+
+.parte-3{
+    margin-top: -40%;
 }
 
 .texto-parte3{
@@ -389,7 +393,7 @@ transform: scale(1.2);
     position: relative;
     display: flex;
     z-index: -2;
-    margin-top: 125%;
+    margin-top: 110%;
 }
 
 .fondo-parte4{
