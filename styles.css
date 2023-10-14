@@ -481,6 +481,27 @@ body {
 }
 
 
+.mapa-info1{
+    position: relative;
+    display: flex;
+    width: 80%;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.mapa-info2{
+    position: relative;
+    display: flex;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.mapa-info2-1{
+    position: relative;
+    margin-top: -52%;
+    margin-left: -15%;
+    width: 30%;
+}
 
 #button-up {
     width: 60px;
@@ -503,6 +524,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
 
 #button-up:hover {
     transform: scale(1.2);
