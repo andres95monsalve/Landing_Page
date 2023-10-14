@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    overflow-x: hidden
+    /* overflow-x: hidden */
 }
 
 .menu-top {
@@ -111,21 +111,20 @@ body{
 }
 
 .titulo{
-    
     margin-top: 5%;
     margin-left: -2%;
 }
 
 .texto-1{
     display: flex;
-    width: 480px;
-    margin-left: 95px;
+    width: 420px;
+    margin-left: 70px;
     margin-top: 10px;
 }
 
 .texto-2 {
-    width: 480px;
-    margin-left: 95px;
+    width: 420px;
+    margin-left: 70px;
     margin-top: 10px;
 }
 
@@ -163,9 +162,10 @@ body{
 }
 
 .texto-principal{
-    display: block;
-    margin-left: 20%; 
-    margin-top: 5%;
+    position: relative;
+    display: flex;
+    margin-left: 15%; 
+    margin-top: 4%;
     width: 480px; /* Ancho del cuadro de texto en píxeles u otras unidades */
     height: 100px; /* Altura del cuadro de texto en píxeles u otras unidades */
     font-size: 20px;
@@ -173,14 +173,15 @@ body{
 }
 
 .botones-compra{
-    display: block;
-    margin-top: 28%;
-    margin-left: -36%;
+    position: relative;
+    display: flex;
+    margin-top: -65%;
+    margin-left: -240%;
 }
 
 .botones-compra1{
-    margin: -1%;
-    width: 29%;
+    margin: -0.5%;
+    width: 14%;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -201,17 +202,18 @@ body{
 }
 
 .texto-color-bike1{
-    display: block;
-    width: 20%;
-    margin-top: -9%;
-    margin-left: 56%;
+    position: relative;
+    display: flex;
+    width: 8%;
+    margin-top: -1%;
 }
 
 .posicion-botones-color{
-    display: block;
-    margin-left: 80%;
-    width: 100%;
-    margin-top: -9%;
+    position: relative;
+    display: flex;
+    width: 37%;
+    margin-top: -1%;
+    margin-left: 1%;
 }
 
 .cuadro-posiciones{
@@ -223,28 +225,32 @@ body{
 
 .puntos1{
     position: absolute;
-    margin-left: 58%;
+    margin-left: -90%;
     margin-top: 12%;
     width: -1%;
 }
 
 .puntos2{
-    position: absolute;
-    margin-left: 58%;
+    display: flex;
+    position: relative;
+    margin-left: -90%;
     width: -1%;
+    margin-top: -15%;
 }
 
 .posicion-puntos{
+    position: relative;
     display: flex;
-    margin-top: 20%;
-    margin-left: -100%;
+    margin-top: 15%;
+    margin-left: -85%;
+    z-index: -1;
 }
 
 .siguenos{
     position: relative;
-    display: block;
-    margin-left: 60%;
-    margin-top: 6%;
+    display: flex;
+    margin-left: -45%;
+    margin-top: 15%;
 }
 
 #siguenos1{
