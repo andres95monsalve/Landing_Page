@@ -315,21 +315,14 @@ body{
 }
 
 .boton-parte2{
-
-position: absolute;
-left: 56.78%;
-right: 22.3%;
-top: 183%;
-bottom: 69.16%;
+position: relative;
+margin-top: 20%;
+margin-left: 56.78%;
 height: 6%;
-width: 15%;
+width: 18%;
 color: #fff;
 font-weight: bold;
 
-background: linear-gradient(90deg, #018297 17.58%, #23BA8D 75.45%, #1ABFAF 106.87%);
-box-shadow: 4px -1px 15px -19px rgba(0, 0, 0, 0.1);
-border-radius: 40px;
-border-color: transparent;
 cursor: pointer;
 transition: transform 0.3s ease;
 }
