@@ -530,3 +530,23 @@ body {
 #button-up:hover {
     transform: scale(1.2);
 }
+
+
+
+.previewNext{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    margin-left: 87%;
+    margin-top: 0.55%;
+    width: 2.5%;
+}
+
+.previewNext1{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    margin-left: 91%;
+    margin-top: -5.02%;
+    width: 2.5%;
+}
