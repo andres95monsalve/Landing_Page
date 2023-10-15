@@ -38,7 +38,6 @@ document.addEventListener('DOMContentLoaded', function() {
 document.getElementById("button-up").style.transform = "scale(0)";
 
 // Scroll-to-top button
-
 document.getElementById("button-up").addEventListener("click", scrollUp);
 
 function scrollUp() {
