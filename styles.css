@@ -1,12 +1,12 @@
 body {
     height: 100vh;
-    display: flex;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     overflow-x: hidden;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Colocar el contenido en el espacio restante */
+    justify-content: space-between;
 }
 
 .menu-top {
@@ -635,3 +635,29 @@ footer {
     z-index: -1;
     margin-top: -5%;
   }
+
+  @media screen and (max-width: 768px) {
+    .menu-top {
+        justify-content: center;
+        margin-right: 0;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    .menu-boton {
+        margin: 0 auto;
+    }
+
+    .texto-1,
+    .texto-2 {
+        width: 80%; /* Ajusta el ancho según sea necesario */
+        margin-left: 10%;
+    }
+
+    .principal-bike {
+        width: 100%;
+        margin: 10% auto;
+    }
+
+    /* ... otros estilos para tamaños de pantalla más pequeños ... */
+}
