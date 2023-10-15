@@ -99,12 +99,18 @@ body {
 }
 
 .imagen-principal {
-    margin-top: 4%;
     margin-left: -20%;
-    background-image: url(src/img/fondoBike.svg);
-    background-size: 480px;
     height: 500px;
     background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#imagen-principal-background{
+    position: relative;
+    display: block;
+    width: 480px;
+    margin-top: -560px;
+    z-index: -1;
 }
 
 .image-menu {
@@ -149,12 +155,12 @@ body {
 
 .principal-bike {
     position: relative;
-    display: flex;
+    display: block;
     width: 480px;
     height: 480px;
     margin: 20%;
     margin-left: -5%;
-    margin-top: -2%;
+    margin-top: 4%;
 }
 
 .background-texto {
@@ -284,15 +290,16 @@ body {
 }
 
 #siguenos1 {
-    position: absolute;
-    margin: 3%;
+    position: relative;
+    display: flex;
+    margin-left: 3%;
 }
 
 .siguenos2 {
     position: relative;
     cursor: pointer;
     margin: 2%;
-    margin-top: -2%;
+    margin-top: -9%;
     transition: transform 0.3s ease;
     z-index: 1;
     left: -145%;
@@ -527,7 +534,6 @@ body {
     width: 5%;
     height: 7%;
     display: flex;
-    background-image: url(src/img/buttonUp.svg);
     justify-content: center;
     align-items: center;
     color: white;
