@@ -45,7 +45,7 @@ body {
     background: linear-gradient(90deg, #018297 0%, #23BA8D 50%, #1ABFAF 100%);
     color: #fff;
     border: none;
-    border-radius: 20px;
+    border-radius: 50px;
     padding: 10px 20px;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -56,7 +56,7 @@ body {
     display: flex;
     width: 15%;
     margin: 3%;
-    left: 578px;
+    left: 40%;
     margin-top: -5%;
     z-index: -1;
 }
@@ -67,7 +67,8 @@ body {
 
 
 .menu {
-    height: 80px;
+
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,9 +76,8 @@ body {
 
 
 .menu-logo {
-    width: 200px;
-    height: 50px;
-    margin-left: 20px;
+    width: 60%;
+    margin-left: 110%;
 }
 
 .image-menu {
@@ -95,16 +95,17 @@ body {
 
 .image-item {
     display: flex;
-    margin-top: 60%;
+    margin-top: 5%;
+    width: 40%;
     object-fit: cover;
     transition: transform 0.3s ease;
-    margin-left: -10%;
+    margin-left: 5%;
 }
 
 .menu-image {
     display: flex;
-    height: 40px;
-    width: 40px;
+    width: 20%;
+    margin: 5%;
     /* Establece el ancho del contenedor para que coincida con el fondo */
     align-items: center;
     justify-content: center;
@@ -120,9 +121,10 @@ body {
 
 .imagen-principal {
     margin-top: 4%;
-    margin-left: 5%;
+    margin-left: -25%;
     background-image: url(src/img/fondoBike.svg);
-    background-size: 85%;
+    background-size: 100%;
+
     background-repeat: no-repeat;
 }
 
@@ -133,31 +135,32 @@ body {
 
 .texto-1 {
     display: flex;
-    width: 420px;
-    margin-left: 70px;
-    margin-top: 10px;
+    width: 78%;
+    margin-left: 12.6%;
+    margin-top: 5%;
 }
 
 .texto-2 {
-    width: 420px;
-    margin-left: 70px;
-    margin-top: 10px;
+    width: 78%;
+    margin-left: 12.6%;
+    margin-top: 1.6%;
 }
 
 .principal-bike {
-    width: 540px;
+    position: relative;
+    display: flex;
+    width: 110%;
     margin: 20%;
-    margin-left: -2%;
+    margin-left: -5%;
     margin-top: -2%;
 }
 
 .background-texto {
-    position: absolute;
-    width: 451.58px;
-    height: 320px;
+    position: relative;
+    width: 10%;
     margin-left: -5%;
-    margin-top: -14%;
-    display: block;
+    margin-top: -35%;
+    display: flex;
     align-items: center;
     color: #EFEFEF;
     opacity: 0.63;
@@ -166,12 +169,11 @@ body {
 }
 
 .background-texto2 {
-    position: absolute;
-    width: 451.58px;
-    height: 320px;
+    position: relative;
+    width: 10%;
     margin-left: -16%;
-    margin-top: -14%;
-    display: block;
+    margin-top: -28.5%;
+    display: flex;
     align-items: center;
     color: #EFEFEF;
     opacity: 0.63;
@@ -184,9 +186,8 @@ body {
     display: flex;
     margin-left: 15%;
     margin-top: 4%;
-    width: 480px;
+    width: 80%;
     /* Ancho del cuadro de texto en píxeles u otras unidades */
-    height: 100px;
     /* Altura del cuadro de texto en píxeles u otras unidades */
     font-size: 20px;
     resize: both;
@@ -283,7 +284,7 @@ body {
 .siguenos2 {
     position: relative;
     cursor: pointer;
-    margin: 5px;
+    margin: 2%;
     margin-top: -2%;
     transition: transform 0.3s ease;
     z-index: 1;
@@ -356,53 +357,57 @@ body {
 }
 
 .texto-parte3 {
-    position: absolute;
+    position: relative;
     margin-top: 50%;
     margin-left: 5%;
     display: flex;
+
 }
 
 .texto-parte3-1 {
-    position: absolute;
-    width: 620px;
-}
-
-.bike2-fondo {
+    display: flex;
     position: relative;
-    width: 40%;
-    z-index: -1;
-    margin-left: 57.2%;
-    margin-top: -50%;
+    width: 45%;
+    margin-top: -20%;
 }
 
 .bike2 {
     position: relative;
-    width: 46.7%;
-    margin-left: 53%;
+    display: flex;
+    width: 100%;
+    margin-left: -80%;
+    background-image: url(src/img/fondoBike.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .bike2-class {
-    margin-top: 7%;
+    position: relative;
+    display: flex;
+    margin-top: 5%;
+    width: 50%;
+    right: -45%;
 }
 
 .vectoresBike {
     position: relative;
     display: flex;
-    width: 15%;
-    margin-left: 30%;
-    margin-top: -10%;
-    z-index: -1;
+    width: 35%;
+    margin-left: -150%;
+    margin-top: 35%;
+    z-index: -2;
 }
 
 .fechasBike2 {
     display: flex;
     position: relative;
-    left: -0.5%;
-    right: 80.06%;
-    top: -10.42%;
-    width: 18%;
+    margin-left: -160%;
+    top: 65%;
+    width: 70%;
     cursor: pointer;
     transition: transform 0.3s ease;
+    z-index: 1;
 }
 
 .fechasBike2:hover {
@@ -413,7 +418,7 @@ body {
     position: relative;
     display: flex;
     z-index: -2;
-    margin-top: 98%;
+    margin-top: 5%;
 }
 
 .fondo-parte4 {
@@ -449,10 +454,10 @@ body {
 
 .boton-compra {
     position: relative;
-    display: block;
+    display: flex;
     margin-left: 6%;
-    width: 11%;
-    margin-top: -5%;
+    width: 12%;
+    margin-top: -5.4%;
     cursor: pointer;
     /* Mueve esta propiedad aquí */
     transition: transform 0.3s ease;
@@ -464,10 +469,10 @@ body {
 
 .boton-renta {
     position: relative;
-    display: block;
+    display: flex;
     margin-left: 18%;
-    width: 11%;
-    margin-top: -15%;
+    width: 12%;
+    margin-top: -25%;
     cursor: pointer;
     /* Mueve esta propiedad aquí */
     transition: transform 0.3s ease;
@@ -512,8 +517,8 @@ body {
 }
 
 #button-up {
-    width: 60px;
-    height: 60px;
+    width: 5%;
+    height: 7%;
     display: flex;
     background-image: url(src/img/buttonUp.svg);
     justify-content: center;
@@ -522,8 +527,8 @@ body {
     border-radius: 50%;
     font-size: 20px;
     position: fixed;
-    bottom: 50px;
-    right: 50px;
+    bottom: 5%;
+    right: 3%;
     cursor: pointer;
     border: 4px solid transparent;
     transition: transform 0.3s ease;
@@ -546,7 +551,7 @@ body {
     display: flex;
     cursor: pointer;
     margin-left: 87%;
-    margin-top: 0.55%;
+    margin-top: 10%;
     width: 2.5%;
 }
 
@@ -555,7 +560,7 @@ body {
     display: flex;
     cursor: pointer;
     margin-left: 91%;
-    margin-top: -5.02%;
+    margin-top: -5.1%;
     width: 2.5%;
 }
 
@@ -635,29 +640,3 @@ footer {
     z-index: -1;
     margin-top: -5%;
   }
-
-  @media screen and (max-width: 768px) {
-    .menu-top {
-        justify-content: center;
-        margin-right: 0;
-        margin-bottom: 2%;
-        margin-top: 2%;
-    }
-
-    .menu-boton {
-        margin: 0 auto;
-    }
-
-    .texto-1,
-    .texto-2 {
-        width: 80%; /* Ajusta el ancho según sea necesario */
-        margin-left: 10%;
-    }
-
-    .principal-bike {
-        width: 100%;
-        margin: 10% auto;
-    }
-
-    /* ... otros estilos para tamaños de pantalla más pequeños ... */
-}
