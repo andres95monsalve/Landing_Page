@@ -60,7 +60,7 @@ body {
     display: flex;
     width: 15%;
     margin: 3%;
-    margin-left: 48.5%;
+    margin-left: 49.5%;
     margin-top: -5.9%;
     z-index: -1;
 }
@@ -73,7 +73,7 @@ body {
 .menu {
     position: relative;
     height: 120%;
-
+    margin-left: 18.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -81,8 +81,9 @@ body {
 
 
 .menu-logo {
-    width: 60%;
-    margin-left: 110%;
+    margin-top: 5%;
+    width: 70%;
+    margin-left: -140%;
 }
 
 .titulo {
