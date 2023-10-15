@@ -34,6 +34,9 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+// Disable scroll-to-top button on page load
+document.getElementById("button-up").style.transform = "scale(0)";
+
 // Scroll-to-top button
 
 document.getElementById("button-up").addEventListener("click", scrollUp);
@@ -52,12 +55,13 @@ buttonUp = document.getElementById("button-up");
 window.onscroll = function() {
   var scroll = document.documentElement.scrollTop;
 
-  if (scroll > 500) {
+  if (scroll > 100) {
     buttonUp.style.transform = "scale(1)";
-  } else if (scroll < 500) {
+  } else if (scroll < 100) {
     buttonUp.style.transform = "scale(0)";
   }
 };
+
 
 // Variables globales
 var imagenActual = "src/img/imagenParte3.svg";

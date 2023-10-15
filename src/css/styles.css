@@ -545,7 +545,7 @@ body {
     cursor: pointer;
     border: 4px solid transparent;
     transition: transform 0.3s ease;
-
+    z-index: 5;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
