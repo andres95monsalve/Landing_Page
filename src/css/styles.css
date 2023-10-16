@@ -278,17 +278,17 @@ body {
 
 .siguenos {
     position: relative;
-    width: 100vw; /* El 100% del ancho de la ventana */
-    height: 20vh; /* El 20% de la altura de la ventana */
-    margin-top: 5vh; /* 5% del alto de la ventana de margen superior */
+    width: 100vw;
+    height: 20vh;
+    margin-top: 5vh;
     display: flex;
     right: 150%;
     align-items: center;
 }
 
 .siguenos img {
-    width: 10vw; /* El 10% del ancho de la ventana para la imagen */
-    height: auto; /* La altura se ajustará automáticamente para mantener las proporciones */
+    width: 10vw;
+    height: auto;
 }
 
 
