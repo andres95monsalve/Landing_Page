@@ -231,8 +231,9 @@ body {
 .color-bike1 {
     position: relative;
     display: flex;
-    width: 10%;
-    margin: 3%;
+    margin: 0.5%;
+    margin-top: 7px;
+    height: 40px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -246,14 +247,6 @@ body {
     display: flex;
     width: 8%;
     margin-top: -1%;
-}
-
-.posicion-botones-color {
-    position: relative;
-    display: flex;
-    width: 37%;
-    margin-top: -1%;
-    margin-left: 1%;
 }
 
 .cuadro-posiciones {
